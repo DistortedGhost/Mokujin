@@ -18,3 +18,4 @@ venv
 .vscode
 /tc/
 /log/
+node_modules
