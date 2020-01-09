@@ -1,7 +1,7 @@
 CHARACTER_ALIAS = {
     'akuma': ['aku', 'gouki'],
     'alisa': ['ali', 'als'],
-    'anna': [],
+    'anna': ['ana'],
     'armor_king': ['armorking', 'amk', 'ak'],
     'asuka': ['asu'],
     'bob': [],
