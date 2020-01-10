@@ -34,7 +34,7 @@ formatter = logging.Formatter('%(asctime)s : %(levelname)s : %(name)s : %(messag
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 
-token = config.read_config()['moku']
+token = config.read_config()['TOKEN']
 feedback_channel_id = config.read_config()['FEEDBACK_CHANNEL_ID']
 
 
