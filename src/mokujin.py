@@ -34,7 +34,7 @@ formatter = logging.Formatter('%(asctime)s : %(levelname)s : %(name)s : %(messag
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 
-token = config.read_config()['TOKEN']
+token = config.read_config()['moku']
 feedback_channel_id = config.read_config()['FEEDBACK_CHANNEL_ID']
 
 
@@ -153,4 +153,4 @@ def is_me(m):
     return m.author == bot.user
 
 
-bot.run(token)
+bot.run(process.env.token)
