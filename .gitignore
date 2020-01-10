@@ -14,8 +14,3 @@ venv
 .project
 .settings
 
-# VS Code
-.vscode
-/tc/
-/log/
-node_modules
